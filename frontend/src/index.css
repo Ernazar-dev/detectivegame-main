@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  background: #f5f6f8;
+  color: #0f172a;
+}
+body { margin: 0; font-family: Inter, system-ui, sans-serif; }
+
+.font-display { font-family: 'Special Elite', monospace; letter-spacing: 0.5px; }
+
+.case-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06), 0 2px 4px rgba(15, 23, 42, 0.04);
+}
+
+.case-tape {
+  background: linear-gradient(135deg, #fde68a, #facc15);
+  color: #422006;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: 'Special Elite', monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  transform: rotate(-2deg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.scene-stage {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #0f172a;
+  min-height: 420px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
+}
+
+.scene-bg {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  filter: brightness(0.55) saturate(1.1);
+  transform: scale(1.05);
+  transition: transform 8s ease-out;
+}
+.scene-stage:hover .scene-bg { transform: scale(1.12); }
+
+.scene-vignette {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.7) 100%);
+  pointer-events: none;
+}
+
+.scene-text {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 32px;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  color: white;
+}
+
+.scene-character {
+  position: absolute; right: 24px; bottom: 0;
+  height: 70%;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+}
+
+.suspect-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.suspect-card:hover {
+  border-color: #2563eb;
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(37, 99, 235, 0.18);
+}
+.suspect-card.selected { border-color: #dc2626; box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.15); }
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.detective-stamp {
+  font-family: 'Special Elite', monospace;
+  border: 3px solid currentColor;
+  border-radius: 6px;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  transform: rotate(-4deg);
+  opacity: 0.85;
+}
+
+/* AntD overrides for light cards on canvas */
+.ant-card { border-radius: 12px !important; }
+.ant-table-thead > tr > th { background: #f9fafb !important; font-weight: 600 !important; }
+
+/* ── Mobile responsive additions ─────────────────────────────────────────── */
+
+/* Ant Design table: horizontal scroll on mobile */
+@media (max-width: 767px) {
+  .ant-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Card padding reduction */
+  .ant-card-body {
+    padding: 14px !important;
+  }
+
+  /* Statistic value size */
+  .ant-statistic-content-value {
+    font-size: 22px !important;
+  }
+
+  /* Ant Form labels */
+  .ant-form-item-label > label {
+    font-size: 13px !important;
+  }
+
+  /* Rankings podium scaling */
+  .podium-container {
+    transform: scale(0.82);
+    transform-origin: top center;
+  }
+}
+
+/* iOS safe-area for bottom nav */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .mobile-bottom-nav {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Prevent body scroll when drawer open */
+body.drawer-open {
+  overflow: hidden;
+}

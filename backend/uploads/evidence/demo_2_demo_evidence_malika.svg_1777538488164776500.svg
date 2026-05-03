@@ -1,0 +1,33 @@
+<svg width="900" height="580" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="580" fill="#111827"/>
+<rect width="900" height="52" fill="#1f2937"/>
+<rect x="0" y="51" width="900" height="1" fill="#374151"/>
+<text x="16" y="22" fill="#9ca3af" font-family="monospace" font-size="11">📱 TELEGRAM — Зашифрованные сообщения восстановлены</text>
+<text x="16" y="40" fill="#6b7280" font-family="monospace" font-size="11">Период: 2025-11-03 — 2025-11-04  |  Криминалистический клон #MT-4429</text>
+<rect x="16" y="64" width="780" height="1" fill="#374151"/>
+<text x="16" y="86" fill="#60a5fa" font-family="monospace" font-size="12" font-weight="bold">💬 НЕИЗВЕСТНЫЙ КОНТАКТ (+7 9XX XXX XX XX)</text>
+<text x="16" y="104" fill="#374151" font-family="monospace" font-size="11">──────────────────────────────────────────────────────────</text>
+<rect x="16" y="114" width="480" height="44" fill="#1e3a5f" rx="8"/>
+<text x="28" y="132" fill="#93c5fd" font-family="monospace" font-size="12">Неизвестный:  Малика, договорились по цене?</text>
+<text x="28" y="150" fill="#6b7280" font-family="monospace" font-size="10">2025-11-03  18:22</text>
+<rect x="404" y="168" width="480" height="44" fill="#065f46" rx="8"/>
+<text x="416" y="186" fill="#6ee7b7" font-family="monospace" font-size="12">Малика:  Да. 8000 долларов. Половину вперёд.</text>
+<text x="416" y="204" fill="#6b7280" font-family="monospace" font-size="10">2025-11-03  18:47  ✓✓</text>
+<rect x="16" y="222" width="540" height="44" fill="#1e3a5f" rx="8"/>
+<text x="28" y="240" fill="#93c5fd" font-family="monospace" font-size="12">Неизвестный:  Нужно сегодня ночью. Готовься.</text>
+<text x="28" y="258" fill="#6b7280" font-family="monospace" font-size="10">2025-11-03  19:15</text>
+<rect x="404" y="276" width="480" height="44" fill="#065f46" rx="8"/>
+<text x="416" y="294" fill="#6ee7b7" font-family="monospace" font-size="12">Малика:  Охрану я решу. Не волнуйся.</text>
+<text x="416" y="312" fill="#6b7280" font-family="monospace" font-size="10">2025-11-03  19:33  ✓✓</text>
+<rect x="16" y="330" width="480" height="44" fill="#1e3a5f" rx="8"/>
+<text x="28" y="348" fill="#93c5fd" font-family="monospace" font-size="12">Неизвестный:  4000$ переведено. Остальное завтра.</text>
+<text x="28" y="366" fill="#6b7280" font-family="monospace" font-size="10">2025-11-04  23:41</text>
+<rect x="404" y="384" width="480" height="44" fill="#065f46" rx="8"/>
+<text x="416" y="402" fill="#6ee7b7" font-family="monospace" font-size="12">Малика:  Получила. Материал у вас. ✓</text>
+<text x="416" y="420" fill="#6b7280" font-family="monospace" font-size="10">2025-11-04  23:58  ✓✓</text>
+<rect x="16" y="448" width="868" height="60" fill="#7f1d1d30" rx="4"/>
+<rect x="16" y="448" width="868" height="60" fill="none" stroke="#ef4444" stroke-width="1" rx="4"/>
+<text x="28" y="468" fill="#ef4444" font-family="monospace" font-size="12" font-weight="bold">⚠  ВЫВОД: М. Тошматова договорилась о продаже формулы за $8 000</text>
+<text x="28" y="488" fill="#ef4444" font-family="monospace" font-size="12">   Предоплата: $4 000 получена  |  Перевод: 2025-11-04 23:41</text>
+<text x="16" y="548" fill="#374151" font-family="monospace" font-size="10">CASE-NET FORENSIC EXPORT — СЕКРЕТНО — Дело №2025-F-0441  |  Telegram DB v5.1 decrypt</text>
+</svg>

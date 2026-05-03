@@ -1,0 +1,31 @@
+<svg width="900" height="580" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="580" fill="#0a0f1e"/>
+<rect width="900" height="42" fill="#0d1529"/>
+<rect x="0" y="41" width="900" height="1" fill="#1e3a5f"/>
+<text x="16" y="16" fill="#4ade80" font-family="monospace" font-size="11" font-weight="bold">🔐 SECUREWATCH PRO v7.2 — Система управления камерами</text>
+<text x="16" y="32" fill="#166534" font-family="monospace" font-size="10">SogliQLab — Корпус A, этаж B  |  Администратор: admin@soglilab.ru</text>
+<text x="16" y="62" fill="#4ade80" font-family="monospace" font-size="12">═══ ЖУРНАЛ СОСТОЯНИЯ КАМЕР — 2025-11-04 ══════════════════════</text>
+<text x="16" y="84" fill="#16a34a" font-family="monospace" font-size="11">ID_КАМ   Расположение           22:00     23:00     00:00</text>
+<text x="16" y="100" fill="#15803d" font-family="monospace" font-size="11">──────────────────────────────────────────────────────────────</text>
+<text x="16" y="120" fill="#4ade80" font-family="monospace" font-size="11">КАМ-01   Вход / Выход           [●ВКЛ]    [●ВКЛ]    [●ВКЛ]</text>
+<text x="16" y="138" fill="#4ade80" font-family="monospace" font-size="11">КАМ-02   Приёмная               [●ВКЛ]    [●ВКЛ]    [●ВКЛ]</text>
+<text x="16" y="164" fill="#ffd66b" font-family="monospace" font-size="12">КАМ-03   Коридор корпуса A      [●ВКЛ]    [○ВЫКЛ]   [●ВКЛ]</text>
+<text x="16" y="182" fill="#ffd66b" font-family="monospace" font-size="12">КАМ-04   Вход в лабораторию     [●ВКЛ]    [○ВЫКЛ]   [●ВКЛ]</text>
+<text x="16" y="200" fill="#ff5577" font-family="monospace" font-size="12">КАМ-05   Основная лаборатория   [●ВКЛ]    [○ВЫКЛ]   [●ВКЛ]</text>
+<text x="16" y="226" fill="#4ade80" font-family="monospace" font-size="11">КАМ-06   Серверная              [●ВКЛ]    [●ВКЛ]    [●ВКЛ]</text>
+<text x="16" y="244" fill="#4ade80" font-family="monospace" font-size="11">КАМ-07   Запасной выход         [●ВКЛ]    [●ВКЛ]    [●ВКЛ]</text>
+<text x="16" y="272" fill="#ffd66b" font-family="monospace" font-size="12">══════════════ СОБЫТИЯ ОТКЛЮЧЕНИЯ ════════════════════════════</text>
+<text x="16" y="296" fill="#74e0ff" font-family="monospace" font-size="11">Время         Пользователь     Действие               Камеры</text>
+<text x="16" y="312" fill="#1e3a5f" font-family="monospace" font-size="11">──────────────────────────────────────────────────────────────</text>
+<text x="16" y="332" fill="#ff5577" font-family="monospace" font-size="12" font-weight="bold">23:09:14      b.xasanov        РУЧНОЕ_ОТКЛЮЧЕНИЕ      КАМ-03, КАМ-04, КАМ-05</text>
+<text x="16" y="350" fill="#ff5577" font-family="monospace" font-size="12">23:09:15      СИСТЕМА          Предупреждение → ОТКЛОНЕНО (b.xasanov)</text>
+<text x="16" y="368" fill="#8b949e" font-family="monospace" font-size="11">23:27:44      b.xasanov        РУЧНОЕ_ВКЛЮЧЕНИЕ       КАМ-03, КАМ-04, КАМ-05</text>
+<text x="16" y="386" fill="#6b7280" font-family="monospace" font-size="11">            → Время отключения: 18 минут 30 секунд</text>
+<rect x="16" y="410" width="868" height="88" fill="#7f1d1d22" rx="4"/>
+<rect x="16" y="410" width="868" height="88" fill="none" stroke="#ff5577" stroke-width="1" rx="4"/>
+<text x="28" y="432" fill="#ff5577" font-family="monospace" font-size="12" font-weight="bold">⚠  ВАЖНО: КАМ-03, КАМ-04, КАМ-05 — камеры на пути к лаборатории</text>
+<text x="28" y="450" fill="#ff5577" font-family="monospace" font-size="12">   Отключены: 23:09:14  (за 2 минуты до начала копирования файлов!)</text>
+<text x="28" y="468" fill="#ff5577" font-family="monospace" font-size="12">   Включены:  23:27:44  (через 13 минут после извлечения USB)</text>
+<text x="28" y="486" fill="#ffd66b" font-family="monospace" font-size="12">   Исполнитель: Бобур Хасанов (b.xasanov) — Сотрудник охраны</text>
+<text x="16" y="548" fill="#1e3a5f" font-family="monospace" font-size="10">CASE-NET FORENSIC EXPORT — СЕКРЕТНО — Дело №2025-F-0441  |  SecureWatch DB dump</text>
+</svg>

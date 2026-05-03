@@ -1,0 +1,30 @@
+<svg width="900" height="580" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="580" fill="#0d1117"/>
+<rect width="900" height="38" fill="#161b22"/>
+<rect x="0" y="37" width="900" height="1" fill="#30363d"/>
+<circle cx="18" cy="19" r="6" fill="#ff5f57"/><circle cx="38" cy="19" r="6" fill="#febc2e"/><circle cx="58" cy="19" r="6" fill="#28c840"/>
+<text x="80" y="24" fill="#8b949e" font-family="monospace" font-size="12">forensic@case-net — /forensic/logs/transfer_log.txt</text>
+<text x="16" y="68" fill="#58a6ff" font-family="monospace" font-size="12">$ cat /forensic/logs/transfer_log.txt</text>
+<text x="16" y="96" fill="#7cffb2" font-family="monospace" font-size="12">══════════════════════════════════════════════════════════════</text>
+<text x="16" y="114" fill="#7cffb2" font-family="monospace" font-size="13" font-weight="bold">  ЖУРНАЛ ПЕРЕДАЧИ ФАЙЛОВ — SogliQLab Внутренняя Система</text>
+<text x="16" y="132" fill="#7cffb2" font-family="monospace" font-size="12">  Дата: 2025-11-04  |  Экспорт: Отдел IT-безопасности</text>
+<text x="16" y="150" fill="#7cffb2" font-family="monospace" font-size="12">══════════════════════════════════════════════════════════════</text>
+<text x="16" y="180" fill="#74e0ff" font-family="monospace" font-size="12">Время                 Пользователь        Действие         Файл</text>
+<text x="16" y="196" fill="#30363d" font-family="monospace" font-size="12">──────────────────────────────────────────────────────────────</text>
+<text x="16" y="216" fill="#8b949e" font-family="monospace" font-size="12">2025-11-04 08:14:22   a.karimov           ЧТЕНИЕ           formula_v6.xlsx</text>
+<text x="16" y="234" fill="#8b949e" font-family="monospace" font-size="12">2025-11-04 11:33:07   m.toshmatova        ЧТЕНИЕ           otchet_Q3.pdf</text>
+<text x="16" y="252" fill="#8b949e" font-family="monospace" font-size="12">2025-11-04 14:22:51   a.karimov           ЧТЕНИЕ           formula_v7.xlsx</text>
+<text x="16" y="270" fill="#8b949e" font-family="monospace" font-size="12">2025-11-04 20:01:38   a.karimov           ЧТЕНИЕ           sintez_protokol.docx</text>
+<text x="16" y="296" fill="#30363d" font-family="monospace" font-size="11">— — — — — — — — — — — — — — — — — ПОДОЗРИТЕЛЬНАЯ АКТИВНОСТЬ — — — — —</text>
+<text x="16" y="320" fill="#ffd66b" font-family="monospace" font-size="12">▶  2025-11-04 23:11:14   a.karimov       КОПИРОВАНИЕ      formula_v7.xlsx → /dev/sdb1</text>
+<text x="16" y="338" fill="#ffd66b" font-family="monospace" font-size="12">▶  2025-11-04 23:12:03   a.karimov       КОПИРОВАНИЕ      sintez_protokol.docx → /dev/sdb1</text>
+<text x="16" y="356" fill="#ff5577" font-family="monospace" font-size="12">▶  2025-11-04 23:13:45   a.karimov       КОПИРОВАНИЕ      analiz_soedinenij.xlsx → /dev/sdb1</text>
+<text x="16" y="374" fill="#ff5577" font-family="monospace" font-size="12">▶  2025-11-04 23:14:08   a.karimov       КОПИРОВАНИЕ      baza_issledovanij.sql → /dev/sdb1</text>
+<text x="16" y="392" fill="#ff5577" font-family="monospace" font-size="13" font-weight="bold">▶  2025-11-04 23:14:38   a.karimov       ИЗВЛЕЧЕНИЕ       /dev/sdb1  [847 МБ передано]</text>
+<rect x="16" y="412" width="868" height="72" fill="#ff557718" rx="4"/>
+<rect x="16" y="412" width="868" height="72" fill="none" stroke="#ff5577" stroke-width="1" rx="4"/>
+<text x="28" y="434" fill="#ff5577" font-family="monospace" font-size="12" font-weight="bold">⚠  АНОМАЛИЯ: 847 МБ скопировано на внешний USB-диск в 23:14</text>
+<text x="28" y="452" fill="#ff5577" font-family="monospace" font-size="12">   Пользователь: Алишер Каримов (a.karimov)</text>
+<text x="28" y="470" fill="#ff5577" font-family="monospace" font-size="12">   Устройство: SanDisk Ultra 3.1  [S/N: DL-7X9P2-2025]</text>
+<text x="16" y="544" fill="#30363d" font-family="monospace" font-size="10">CASE-NET FORENSIC EXPORT — СЕКРЕТНО — Дело №2025-F-0441 — SogliQLab Investigation</text>
+</svg>
